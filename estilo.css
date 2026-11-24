@@ -1,0 +1,84 @@
+:root {
+  --tinta: #1a1f3d;
+  --crema: #fffdf6;
+  --suave: #50557a;
+  --amarillo: #ffc93c;
+  --linea: #c9cde6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--crema);
+  color: var(--tinta);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 44rem;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+header {
+  border-bottom: 3px solid var(--tinta);
+  margin-bottom: 2rem;
+  padding-bottom: 1.25rem;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 1.15;
+  margin: 0 0 0.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 2.25rem 0 0.5rem;
+}
+
+p,
+ul {
+  margin: 0 0 1rem;
+}
+
+li {
+  margin-bottom: 0.35rem;
+}
+
+a {
+  color: #2747d9;
+}
+
+.entrada {
+  color: var(--suave);
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.recuadro {
+  background: #fff;
+  border: 3px solid var(--tinta);
+  border-radius: 1rem;
+  box-shadow: 4px 4px 0 var(--amarillo);
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+}
+
+.recuadro p:last-child,
+.recuadro ul:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  border-top: 2px solid var(--linea);
+  color: var(--suave);
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  padding-top: 1rem;
+}
